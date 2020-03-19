@@ -56,7 +56,7 @@ jobs:
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
 
     - name: P1
-      run: src-git lienol http://github.com/Lienol/openwrt-package
+      run: git clone http://github.com/Lienol/openwrt-package
 
 
     - name: Update feeds
